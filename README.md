@@ -6,7 +6,7 @@
 
 - 📚​ Actualmente estoy finalizando mis estudios de forma dual en Viewnext .
 - ​👨🏽‍💻​ Estoy enfocándome en el desarrollo web y en el desarrollo de aplicaciones móviles .
-- 📫 Este es mi perfil de LinkedIn donde puedes contactar conmigo[LinkedIn](https://www.linkedin.com/in/francisco-balonero-olivera/
+- 📫 Este es mi perfil de LinkedIn donde puedes contactar conmigo[LinkedIn](https://www.linkedin.com/in/francisco-balonero-olivera/)
 
 ## 🚀 Habilidades y Tecnologías
 
