@@ -1,16 +1,35 @@
-### Hi there 👋
+# 👋 Hola! Soy Francisco
 
-<!--
-**Francisco-B-O/Francisco-B-O** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+👨‍💻 Soy desarrollador de **aplicaciones multiplataforma** y **aplicaciones web**.
 
-Here are some ideas to get you started:
+## ​👀​ Conóceme 
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- 📚​ Actualmente estoy finalizando mis estudios de forma dual en Viewnext .
+- ​👨🏽‍💻​ Estoy enfocándome en el desarrollo web y en el desarrollo de aplicaciones móviles .
+- 📫 Este es mi perfil de LinkedIn donde puedes contactar conmigo[LinkedIn](https://www.linkedin.com/in/francisco-balonero-olivera/
+
+## 🚀 Habilidades y Tecnologías
+
+### 🔧 Lenguajes
+
+- Java
+- HTML
+- CSS
+- TypeScript
+- JavaScript
+
+### 🧰 Frameworks
+
+- Spring Framework
+- Express.js
+- Angular
+
+### ​💾​ Bases de datos
+
+- MySQL
+### ​​🛠️​ IDEs y herramientas
+
+- Eclipse
+- Visual Studio Code
+- Git
+- Docker
