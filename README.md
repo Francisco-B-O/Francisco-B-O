@@ -1,5 +1,11 @@
 # 💫 About Me
-👋 Hello! I'm Francisco (although I prefer being called Kiko).<br>👨‍💻 I'm a multiplatform application developer and web application developer.<br> 📚​ Currently, I'm finishing my studies in a dual form at Viewnext.<br>💻📱 I'm focusing on web development and mobile application development.
+👨‍💻 I am a recently graduated multiplatform application developer with a solid background in both multiplatform and web development, acquired through a dual training program.
+
+📚 My passion for continuous learning drives me to stay updated with the latest trends and technologies in software development. During my training, I have gained practical skills in various technologies and programming languages, enabling me to approach projects with a broad and adaptable perspective.
+
+🚀 I consider myself an enthusiastic and committed individual, always seeking new ideas and challenges that allow me to grow and evolve professionally.
+
+💼 If you are looking for a developer with dedication, a willingness to learn, and the ability to work in teams, I am confident that my profile will meet your expectations.
 
 
 ## 🌐 Socials
