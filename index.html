@@ -28,7 +28,7 @@
         </nav>
     </header>
 
-    <section id="hero">
+    <section id="hero" class="reveal">
         <div class="hero-content">
             <div class="avatar-container">
                 <img src="img/avatar.jpg" alt="Avatar" class="avatar">
@@ -51,7 +51,7 @@
         </div>
     </section>
 
-    <section id="about">
+    <section id="about" class="reveal">
         <h2>Sobre mí</h2>
         <p id="about-content">👨‍💻 Soy un desarrollador de aplicaciones multiplataforma recientemente graduado con una
             sólida formación tanto en desarrollo multiplataforma como en desarrollo web, adquirida a través de un
@@ -74,8 +74,8 @@
     <hr>
 
 
-    <section id="tech-stack">
-        <h2>Tecnologíask</h2>
+    <section id="tech-stack" class="reveal">
+        <h2>Tecnologías</h2>
         <div class="tech-icons">
             <div class="icon-container">
                 <i class="devicon-javascript-plain"></i>
@@ -153,7 +153,7 @@
     </section>
 
 
-    <section id="education">
+    <section id="education" class="reveal">
         <h2>Formación</h2>
         <ul class="education-list">
             <li class="education-item">
@@ -166,7 +166,7 @@
     </section>
 
 
-    <section id="projects">
+    <section id="projects" class="reveal">
         <h2>Proyectos</h2>
         <div class="projects-container">
             <div class="project-card">
@@ -205,6 +205,15 @@
     </footer>
 
     <script src="js/scripts.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        ScrollReveal().reveal('.reveal', {
+            duration: 2000,
+            origin: 'bottom',
+            distance: '50px',
+            reset: true
+        });
+    </script>
 </body>
 
 </html>
