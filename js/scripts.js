@@ -21,10 +21,9 @@ document.addEventListener('DOMContentLoaded', function () {
         es: {
             home: 'Inicio',
             about: 'Sobre mí',
-            'tech-stack': 'Tech Stack',
+            'tech-stack': 'Tecnologías',
             projects: 'Proyectos',
             'about-content': '👨‍💻 Soy un desarrollador de aplicaciones multiplataforma recientemente graduado con una sólida formación tanto en desarrollo multiplataforma como en desarrollo web, adquirida a través de un programa de formación dual.<br><br>📚 Mi pasión por el aprendizaje continuo me impulsa a mantenerme actualizado con las últimas tendencias y tecnologías en el ámbito del desarrollo de software. Durante mi formación, he adquirido habilidades prácticas en diversas tecnologías y lenguajes de programación, lo que me permite abordar proyectos con una perspectiva amplia y adaptable.<br><br>🚀 Me considero una persona entusiasta y comprometida, siempre en busca de nuevas ideas y desafíos que me permitan crecer y evolucionar profesionalmente.<br><br>💼 Si buscas un desarrollador con dedicación, ganas de aprender y capacidad para trabajar en equipo, estoy seguro de que mi perfil cumplirá tus expectativas.',
-            'tech-stack-content': 'Esta es la tecnología en la que me especializo:',
             'projects-title': 'Proyectos',
             'project-title-fbo': 'FBO Demo App',
             'project-description-fbo': 'Una demostración de una aplicacion multiplataforma desarrollada con Flutter',
@@ -33,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function () {
             'footer-text': '© 2024 Francisco Balonero Olivera. Todos los derechos reservados.',
             'education': 'Formación',
             'education-description': 'CGFS Desarrollo de Aplicaciones Multiplataforma',
-            'education-description-text': 'Formacion Dual.',
+            'education-description-text': 'Formación Dual.',
             'education-grade': 'Nota Media: 9.31',
             'education-institution': 'IES Ágora',
             'heroSubTitle': 'Desarrollador de softare'
