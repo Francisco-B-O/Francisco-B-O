@@ -55,6 +55,7 @@ section {
 
 #hero {
     background: url('/Francisco-B-O/img/hero-bg.png') no-repeat center center/cover;
+    background-attachment: fixed;
     color: white;
     padding: 2em 2em;
     display: flex;
