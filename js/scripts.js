@@ -6,6 +6,8 @@ document.addEventListener('DOMContentLoaded', function () {
     const aboutContent = document.getElementById('about-content');
     const techStackTitle = document.querySelector('#tech-stack h2');
     const projectsTitle = document.querySelector('#projects h2');
+    const heroSubTitle = document.querySelector('#hero h2');
+
     const projectCards = document.querySelectorAll('.project-card');
     const footerText = document.querySelector('footer p');
     const educationTitle = document.querySelector('#education h2');
@@ -33,7 +35,8 @@ document.addEventListener('DOMContentLoaded', function () {
             'education-description': 'CGFS Desarrollo de Aplicaciones Multiplataforma',
             'education-description-text': 'Formacion Dual.',
             'education-grade': 'Nota Media: 9.31',
-            'education-institution': 'IES Ágora'
+            'education-institution': 'IES Ágora',
+            'heroSubTitle': 'Desarrollador de softare'
         },
         en: {
             home: 'Home',
@@ -53,6 +56,7 @@ document.addEventListener('DOMContentLoaded', function () {
             'project-title-tic': 'TIC-TAPSD: The Connected Life',
             'project-description-tic': 'Contribution to a project that involves the design, creation, and exploitation of a software platform consisting of a web application and a mobile application. This platform allows students of the Teleassistance module to carry out the necessary practices for their qualification.',
             'footer-text': '© 2024 Francisco Balonero Olivera. All rights reserved.',
+            'heroSubTitle': 'Software developer'
 
         }
     };
@@ -76,6 +80,7 @@ document.addEventListener('DOMContentLoaded', function () {
         educationDescriptionText.textContent = translations[currentLanguage]['education-description-text'];
         educationGrade.textContent = translations[currentLanguage]['education-grade'];
         educationInstitution.textContent = translations[currentLanguage]['education-institution'];
+        heroSubTitle.textContent = translations[currentLanguage]['heroSubTitle']
 
         projectCards.forEach(card => {
             const projectTitle = card.querySelector('h3');
