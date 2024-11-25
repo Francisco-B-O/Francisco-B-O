@@ -1,11 +1,15 @@
 # 💫 About Me
-👨‍💻 I am a recently graduated multiplatform application developer with a solid background in both multiplatform and web development, acquired through a dual training program.
+👨‍💻 I am a Full Stack Developer with extensive experience in developing cross-platform applications and web development. My career has been focused on creating technological solutions that are not only efficient but also provide an exceptional user experience. My expertise spans both front-end and back-end development, allowing me to have a comprehensive view of projects and facilitate team collaboration.
 
-📚 My passion for continuous learning drives me to stay updated with the latest trends and technologies in software development. During my training, I have gained practical skills in various technologies and programming languages, enabling me to approach projects with a broad and adaptable perspective.
+📚 A passion for continuous learning is the driving force behind my career. I am always looking for opportunities to expand my knowledge, whether by exploring new technologies, taking courses, or attending conferences. This enables me to master current tools and quickly adapt to emerging trends in the industry. I am particularly drawn to developing modern applications using popular frameworks and innovative technologies.
 
-🚀 I consider myself an enthusiastic and committed individual, always seeking new ideas and challenges that allow me to grow and evolve professionally.
+🚀 I consider myself an enthusiastic and dedicated individual, always seeking new challenges that allow me to grow professionally. I am excited about the opportunity to collaborate with multidisciplinary teams that foster creativity and innovation. I firmly believe in the importance of a collaborative environment and open communication, which are essential for the success of any project.
 
-💼 If you are looking for a developer with dedication, a willingness to learn, and the ability to work in teams, I am confident that my profile will meet your expectations.
+💼 If you are looking for a developer with dedication, a willingness to learn, and strong teamwork skills, I am confident that my profile will be a great fit. My goal is to contribute to projects that not only leverage cutting-edge technologies but also have a meaningful impact on the community. I enjoy being involved in all stages of development, from planning and design to implementation and maintenance.
+
+🌱 I am excited about the possibility of connecting with other professionals and learning from their experiences. I am open to new collaboration opportunities and eager to participate in projects that challenge me and help me grow. Whether you're looking to enhance an existing product or launch a new idea, I would love to discuss how I can contribute to your vision.
+
+Feel free to reach out if you want to talk about projects, ideas, or simply share experiences in the world of development!
 
 
 ## 🌐 Socials
