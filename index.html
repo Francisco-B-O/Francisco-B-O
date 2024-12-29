@@ -1,62 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Francisco Balonero Olivera</title>
-    <link rel="stylesheet" href="css/style.css">
-
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
-
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Francisco Balonero Olivera</title>
+    <meta property="og:title" content="Francisco Balonero Olivera" />
+    <meta property="og:description" content="Desarrollador FullStack" />
+    <meta property="og:url" content="https://francisco-b-o.github.io/Francisco-B-O/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_ES" />
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#hero" class="nav-link" data-key="home">Inicio</a></li>
-                <li><a href="#about" class="nav-link" data-key="about">Sobre mí</a></li>
-                <li><a href="#tech-stack" class="nav-link" data-key="tech-stack">Tecnologías</a></li>
-                <li><a href="#education" class="nav-link" data-key="education">Formación</a></li>
-                <li><a href="#projects" class="nav-link" data-key="projects">Proyectos</a></li>
-                <li>
-                    <button id="language-toggle"><img src="img/english.png" alt="Spain" id="language-icon"></button>
-                </li>
-            </ul>
-        </nav>
-    </header>
 
-    <section id="hero">
-        <div class="reveal">
-            <div class="hero-content">
-                <div class="avatar-container">
-                    <img src="img/avatar.jpg" alt="Avatar" class="avatar">
-                </div>
-                <h1>Francisco Balonero Olivera (Kiko)</h1>
-                <h2>Desarrollador de software</h2>
-                <section id="socials">
-                    <div class="socials">
-                        <a href="https://www.linkedin.com/in/francisco-balonero-olivera/" target="_blank">
-                            <img src="img/linkedin.png" alt="LinkedIn">
-                        </a>
-                        <a href="mailto:franciscobalonerodev@gmail.com?subject=Contacto desde Portfolio Web"
-                            target="_blank">
-                            <img src="img/gmail.png" alt="Gmail">
-                        </a>
-                        <a href="https://github.com/Francisco-B-O" target="_blank">
-                            <img src="img/github.png" alt="GitHub">
-                        </a>
+
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>Francisco Balonero</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#stack" onclick="seleccionar(this)">TECNOLOGIAS</a></li>
+                            <li><a href="#experiencia" onclick="seleccionar(this)">EXPERIENCIA</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PROYECTOS</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
                     </div>
-                </section>
+                    <div class="redes">
+                        <a href="https://www.linkedin.com/in/francisco-balonero-olivera" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Francisco-B-O" target="_blank"><i
+                                class="fa-brands fa-github"></i></a>
+                    </div>
+
+                </div>
+            </header>
+
+            <div class="presentacion">
+
+                <img src="img/avatar.jpg" alt="Avatar" class="avatar">
+
+                <h2>Soy Francisco Balonero Olivera, Desarrollador FullStack</h2>
             </div>
         </div>
     </section>
 
-    <section id="about" class="reveal">
-        <h2>Sobre mí</h2>
-        <p class="about-content">
+    <section id="sobremi" class="reveal">
+
+
+
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, Soy <span>Francisco Balonero Olivera</span> </h2>
             👨‍💻 Soy <strong>desarrollador Full Stack</strong> con una sólida experiencia en el desarrollo de
             aplicaciones multiplataforma y en el ámbito del desarrollo web. Mi carrera se ha centrado en crear
             soluciones tecnológicas que no solo sean eficientes, sino que también brinden una experiencia de usuario
@@ -74,156 +84,301 @@
             me permitan crecer profesionalmente. Me emociona la posibilidad de colaborar con equipos multidisciplinarios
             donde se fomente la creatividad y la innovación. Creo firmemente en la importancia de un entorno
             colaborativo y en la comunicación abierta, que son esenciales para el éxito de cualquier proyecto.<br><br>
+            <a href="CV_Francisco_Balonero_Olivera.pdf">Descargar CV</a>
+        </div>
+    </section>
+    <section id="stack" class="reveal">
+        <h3 class="titulo-seccion">Tecnologías</h3>
+        <div class="fila">
 
-            💼 Si estás buscando un desarrollador con dedicación, capacidad de aprendizaje y habilidades para trabajar
-            en equipo, estoy seguro de que mi perfil será un buen fit. Mi objetivo es contribuir a proyectos que no solo
-            utilicen tecnologías de vanguardia, sino que también tengan un impacto significativo en la comunidad. Me
-            gusta involucrarme en todas las etapas del desarrollo, desde la planificación y diseño hasta la
-            implementación y mantenimiento.<br><br>
+            <div class="tecnologia">
+                <span class="icono">
+                    <i class="devicon-javascript-plain"></i>
+                </span>
+                <h4>JavaScript</h4>
+            </div>
 
-            🌱 Estoy emocionado por la posibilidad de conectar con otros profesionales y aprender de sus experiencias.
-            Estoy abierto a nuevas oportunidades de colaboración y a participar en proyectos que me desafíen y me ayuden
-            a crecer. Ya sea que estés buscando mejorar un producto existente o lanzar una nueva idea, me encantaría
-            discutir cómo puedo contribuir a tu visión.<br><br>
+            <div class="tecnologia">
+                <span class="icono">
+                    <i class="devicon-dart-plain"></i>
+                </span>
+                <h4>Dart</h4>
+            </div>
 
-            ¡No dudes en contactarme si deseas hablar sobre proyectos, ideas o simplemente compartir experiencias en el
-            mundo del desarrollo!
-        </p>
+            <div class="tecnologia">
+                <span class="icono">
+                    <i class="devicon-flutter-plain"></i>
+                </span>
+                <h4>Flutter</h4>
+            </div>
 
-        <div class="cv-download">
-            <a href="CV_Francisco_Balonero_Olivera.pdf" download="CV_Francisco_Balonero_Olivera.pdf">
-                <img src="img/cv.png" alt="Descargar CV">
+            <div class="tecnologia">
+                <span class="icono">
+                    <i class="devicon-mysql-plain"></i>
+                </span>
+                <h4>MySQL</h4>
+            </div>
+
+            <div class="tecnologia">
+                <span class="icono">
+                    <i class="devicon-kotlin-plain"></i>
+                </span>
+                <h4>Kotlin</h4>
+            </div>
+
+            <div class="tecnologia">
+                <span class="icono">
+                    <i class="devicon-html5-plain"></i>
+                </span>
+                <h4>HTML5</h4>
+            </div>
+
+            <div class="tecnologia">
+                <span class="icono">
+                    <i class="devicon-java-plain"></i>
+                </span>
+                <h4>Java</h4>
+            </div>
+
+            <div class="tecnologia">
+                <span class="icono">
+                    <i class="devicon-spring-plain"></i>
+                </span>
+                <h4>Spring</h4>
+            </div>
+
+            <div class="tecnologia">
+                <span class="icono">
+                    <i class="devicon-docker-plain"></i>
+                </span>
+                <h4>Docker</h4>
+            </div>
+
+            <div class="tecnologia">
+                <span class="icono">
+                    <i class="devicon-postman-plain"></i>
+                </span>
+                <h4>Postman</h4>
+            </div>
+
+            <div class="tecnologia">
+                <span class="icono">
+                    <i class="devicon-swagger-plain"></i>
+                </span>
+                <h4>Swagger</h4>
+            </div>
+
+            <div class="tecnologia">
+                <span class="icono">
+                    <i class="devicon-css3-plain"></i>
+                </span>
+                <h4>CSS3</h4>
+            </div>
+
+            <div class="tecnologia">
+                <span class="icono">
+                    <i class="devicon-python-plain"></i>
+                </span>
+                <h4>Python</h4>
+            </div>
+
+            <div class="tecnologia">
+                <span class="icono">
+                    <i class="devicon-typescript-plain"></i>
+                </span>
+                <h4>TypeScript</h4>
+            </div>
+
+            <div class="tecnologia">
+                <span class="icono">
+                    <i class="devicon-express-original"></i>
+                </span>
+                <h4>Express.js</h4>
+            </div>
+
+            <div class="tecnologia">
+                <span class="icono">
+                    <i class="devicon-nodejs-plain"></i>
+                </span>
+                <h4>Node.js</h4>
+            </div>
+
+            <div class="tecnologia">
+                <span class="icono">
+                    <i class="devicon-django-plain"></i>
+                </span>
+                <h4>Django</h4>
+            </div>
+
+            <div class="tecnologia">
+                <span class="icono">
+                    <i class="devicon-angularjs-plain"></i>
+                </span>
+                <h4>Angular</h4>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="experiencia" class="reveal">
+        <div class="container">
+            <h2 class="titulo-seccion">Mi experiencia</h2>
+
+            <div class="experiencia-item">
+                <button class="experiencia-header">Viewnext</button>
+                <div class="experiencia-content">
+                    <p>
+                        Mi experiencia en <strong>Viewnext</strong> comenzó con su modelo de <strong>formación
+                            dual</strong>, un programa que combinaba el aprendizaje académico con prácticas
+                        profesionales en la empresa. Durante esta etapa, tuve la oportunidad de poner en práctica los
+                        conocimientos adquiridos en un entorno real, participando en proyectos de desarrollo de software
+                        que me permitieron entender las necesidades del mercado y cómo abordarlas técnicamente.
+                    </p>
+
+                    <p>
+                        Durante mi formación en Viewnext, me especialicé en el uso de <strong>Java</strong> y
+                        <strong>Spring Boot</strong> para el desarrollo de microservicios, lo que me permitió comprender
+                        la arquitectura de aplicaciones modulares, escalables y de alto rendimiento. Trabajé en la
+                        creación de APIs RESTful y en la gestión de bases de datos utilizando <strong>JPA</strong> y
+                        <strong>Hibernate</strong>, lo que fortaleció mis habilidades en persistencia de datos y
+                        optimización de consultas.
+                    </p>
+
+                    <p>
+                        Además, en este período tuve la oportunidad de trabajar con <strong>Spring Batch</strong>, que
+                        me permitió desarrollar procesos de batch para tareas programadas, como el procesamiento de
+                        grandes volúmenes de datos, lo cual es esencial para mejorar la eficiencia de los sistemas.
+                    </p>
+
+                    <p>
+                        La metodología <strong>SCRUM</strong> fue clave en mi formación, ya que participé activamente en
+                        equipos ágiles, realizando reuniones diarias (Daily Standups), planificación de sprints,
+                        revisiones y retrospectivas. Esta metodología me permitió aprender a gestionar el tiempo de
+                        manera eficiente, priorizar tareas y adaptarme a los cambios de forma ágil.
+                    </p>
+
+                    <p>
+                        También tuve la oportunidad de trabajar con herramientas de control de versiones como
+                        <strong>Git</strong> y <strong>GitHub</strong>, lo que me permitió gestionar el código de manera
+                        eficiente, colaborar con otros desarrolladores y mantener un historial claro de los cambios
+                        realizados.
+                    </p>
+
+                    <p>
+                        Tras finalizar mi formación dual, continué mi carrera profesional en <strong>Viewnext</strong>,
+                        donde actualmente me dedico al desarrollo <strong>backend</strong>. Mi trabajo actual está
+                        centrado en la creación de aplicaciones robustas utilizando <strong>Spring Boot</strong> para
+                        construir microservicios escalables y APIs RESTful. Además, gestiono flujos de datos en tiempo
+                        real utilizando <strong>Kafka</strong>, lo que me ha permitido profundizar en el procesamiento
+                        de eventos y la comunicación asíncrona en arquitecturas distribuidas.
+                    </p>
+
+                    <p>
+                        En mi día a día, utilizo herramientas como <strong>Spring Batch</strong> para manejar procesos
+                        en segundo plano, optimizando el rendimiento en tareas programadas y el procesamiento de grandes
+                        volúmenes de datos. Mi trabajo también incluye el uso de <strong>Git</strong> y
+                        <strong>GitHub</strong> para el control de versiones, lo que facilita la colaboración con otros
+                        desarrolladores y la gestión eficiente del código fuente.
+                    </p>
+
+                    <p>
+                        La metodología <strong>SCRUM</strong> sigue siendo una parte fundamental de mi trabajo actual,
+                        ya que participo activamente en reuniones de equipo, planificación de sprints y revisiones de
+                        progreso. Esta experiencia me ha permitido trabajar de manera eficaz en equipos
+                        multidisciplinarios, enfrentando desafíos técnicos de manera ágil y flexible.
+                    </p>
+
+                    <p>
+                        En resumen, mi paso por la <strong>formación dual</strong> en Viewnext fue clave para adquirir
+                        una base sólida en el desarrollo de software, especialmente en tecnologías como
+                        <strong>Java</strong>, <strong>Spring Boot</strong>, <strong>Kafka</strong> y <strong>Spring
+                            Batch</strong>. Actualmente, como parte del equipo de Viewnext, continúo desarrollando mis
+                        habilidades en estas áreas, y sigo creciendo como profesional en el ámbito del desarrollo de
+                        software backend.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="reveal">
+        <h3 class="titulo-seccion">Mis Proyectos</h3>
+        <div class="fila">
+            <a href="https://francisco-b-o.github.io/fbo_demo_app/" target="_blank" class="proyecto">
+                <div>
+                    <div class="overlay"></div>
+                    <img src="img/fbo_demo.png" alt="Demo">
+                    <div class="info">
+                        <h4>Flutter Demo App</h4>
+                        <p>Una demostración de una aplicacion multiplataforma desarrollada con Flutter</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://teleasistencia.iesvjp.es/inicio" target="_blank" class="proyecto">
+                <div>
+                    <div class="overlay"></div>
+                    <img src="img/tic_tapsd.png" alt="tictapsd">
+                    <div class="info">
+                        <h4>TIC-TAPSD: La vida conectada</h4>
+                        <p>Contribución a un proyecto que consiste en el diseño, creación y explotación de una
+                            plataforma
+                            software formada por una aplicación web y una aplicación móvil. Esta plataforma permite a
+                            los
+                            alumnos del módulo de Teleasistencia realizar las prácticas necesarias para su titulación.
+                        </p>
+                    </div>
+                </div>
             </a>
         </div>
     </section>
-    <hr>
 
-    <section id="projects" class="reveal">
-        <h2>Proyectos</h2>
-        <div class="projects-container">
-            <div class="project-card" onclick="window.open('https://francisco-b-o.github.io/fbo_demo_app/', '_blank')">
-                <h3>FBO Demo App</h3>
-                <p>Una demostración de una aplicacion multiplataforma desarrollada con Flutter</p>
-                <img src="img/fbo_demo.png" alt="flutter_app" class="project-image">
-                <div class="project-links">
-                    <a href="https://github.com/Francisco-B-O/fbo_demo_app" target="_blank">
-                        <img src="img/github.png" alt="GitHub">
-                    </a>
+    <section id="contacto" class="reveal">
+        <h3 class="titulo-seccion">Contactame ahora</h3>
+        <div class="contenedor-form">
+            <form action="https://formsubmit.co/franciscobalonerodev@gmail.com" method="POST">
+
+
+                <div class="fila mitad">
+                    <input type="text" name="name" id="name" placeholder="Nombre Completo *" class="input-mitad">
+                    <input type="email" name="email" id="email" placeholder="Dirección de Email" class="input-mitad">
                 </div>
-            </div>
-            <div class="project-card" onclick="window.open('https://teleasistencia.iesvjp.es/inicio', '_blank')">
-                <h3>TIC-TAPSD: La vida conectada</h3>
-                <p>Contribución a un proyecto que consiste en el diseño, creación y explotación de una plataforma
-                    software formada por una aplicación web y una aplicación móvil. Esta plataforma permite a los
-                    alumnos del módulo de Teleasistencia realizar las prácticas necesarias para su titulación.</p>
-                <img src="img/tic_tapsd.png" alt="TIC-TAPSD project" class="project-image">
-                <div class="project-links">
-                    <a href="https://github.com/IES-Valle-Jerte/teleasistencia-servidor-django" target="_blank">
-                        <img src="img/github.png" alt="GitHub">
-                    </a>
+
+                <div class="fila">
+                    <input type="text" name="subject" id="subject" placeholder="Asunto" class="input-full">
                 </div>
-            </div>
+
+                <div class="fila">
+                    <textarea name="coments" id="coments" cols="30" rows="10" placeholder="Tu Mensaje..."
+                        class="input-full"></textarea>
+                </div>
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
         </div>
     </section>
-
-    <section id="tech-stack" class="reveal">
-        <h2>Tecnologías</h2>
-        <div class="tech-icons">
-            <div class="icon-container">
-                <i class="devicon-javascript-plain"></i>
-                <span>JavaScript</span>
-            </div>
-            <div class="icon-container">
-                <i class="devicon-dart-plain"></i>
-                <span>Dart</span>
-            </div>
-            <div class="icon-container">
-                <i class="devicon-flutter-plain"></i>
-                <span>Flutter</span>
-            </div>
-            <div class="icon-container">
-                <i class="devicon-mysql-plain"></i>
-                <span>MySQL</span>
-            </div>
-            <div class="icon-container">
-                <i class="devicon-kotlin-plain"></i>
-                <span>Kotlin</span>
-            </div>
-            <div class="icon-container">
-                <i class="devicon-html5-plain"></i>
-                <span>HTML5</span>
-            </div>
-            <div class="icon-container">
-                <i class="devicon-java-plain"></i>
-                <span>Java</span>
-            </div>
-            <div class="icon-container">
-                <i class="devicon-spring-plain"></i>
-                <span>Spring</span>
-            </div>
-            <div class="icon-container">
-                <i class="devicon-docker-plain"></i>
-                <span>Docker</span>
-            </div>
-            <div class="icon-container">
-                <i class="devicon-postman-plain"></i>
-                <span>Postman</span>
-            </div>
-            <div class="icon-container">
-                <i class="devicon-swagger-plain"></i>
-                <span>Swagger</span>
-            </div>
-            <div class="icon-container">
-                <i class="devicon-css3-plain"></i>
-                <span>CSS3</span>
-            </div>
-            <div class="icon-container">
-                <i class="devicon-python-plain"></i>
-                <span>Python</span>
-            </div>
-            <div class="icon-container">
-                <i class="devicon-typescript-plain"></i>
-                <span>TypeScript</span>
-            </div>
-            <div class="icon-container">
-                <i class="devicon-express-original"></i>
-                <span>Express.js</span>
-            </div>
-            <div class="icon-container">
-                <i class="devicon-nodejs-plain"></i>
-                <span>Node.js</span>
-            </div>
-            <div class="icon-container">
-                <i class="devicon-django-plain"></i>
-                <span>Django</span>
-            </div>
-            <div class="icon-container">
-                <i class="devicon-angularjs-plain"></i>
-                <span>Angular</span>
-            </div>
-        </div>
-    </section>
-
-
-    <section id="education" class="reveal">
-        <h2>Formación</h2>
-        <ul class="education-list">
-            <li class="education-item">
-                <h3>CGFS Desarrollo de Aplicaciones Multiplataforma</h3>
-                <p class="description">Formación Dual.</p>
-                <p class="grade">Nota Media: 9.31</p>
-                <p class="institution">IES Ágora</p>
-            </li>
-        </ul>
-    </section>
-
-
-
 
     <footer>
         <p>© 2024 Francisco Balonero Olivera. Todos los derechos reservados.</p>
     </footer>
-
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const experiencias = document.querySelectorAll(".experiencia-header");
+            experiencias.forEach(experiencia => {
+                experiencia.addEventListener("click", function () {
+                    const content = this.nextElementSibling;
+                    if (content.style.display === "block") {
+                        content.style.display = "none";
+                    } else {
+                        document.querySelectorAll(".experiencia-content").forEach(item => {
+                            item.style.display = "none";
+                        });
+                        content.style.display = "block";
+                    }
+                });
+            });
+        });
+    </script>
     <script src="js/scripts.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
     <script>
