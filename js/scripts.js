@@ -10,7 +10,6 @@ function seleccionar(link) {
     var x = document.getElementById("nav");
     x.className = "";
 }
-
 function responsiveMenu() {
     var x = document.getElementById("nav");
     if (x.className === "") {
@@ -19,15 +18,14 @@ function responsiveMenu() {
         x.className = "";
     }
 }
-function enviarMail() {
-    const name = document.getElementById('name').value;
-    const email = document.getElementById('email').value;
-    const subject = document.getElementById('subject').value;
-    const coments = document.getElementById('coments').value;
-
-    const mailtoLink = `mailto:franciscobalonerodev@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(
-        `Nombre: ${name}%0AEmail: ${email}%0AMensaje:%0A${coments}`
-    )}`;
-
-    window.location.href = mailtoLink;
+function toggleTheme() {
+    const themeLink = document.getElementById('theme-stylesheet');
+    const currentTheme = themeLink.getAttribute('href');
+    const newTheme = currentTheme === 'css/style.css' ? 'css/dark.css' : 'css/style.css';
+    themeLink.setAttribute('href', newTheme);
+    const themeToggler = document.getElementById('theme-toggler');
+    const currentClass = themeToggler.classList.contains('fa-moon') ? 'fa-moon' : 'fa-sun';
+    const newClass = currentClass === 'fa-moon' ? 'fa-sun' : 'fa-moon';
+    themeToggler.classList.remove(currentClass);
+    themeToggler.classList.add(newClass);
 }

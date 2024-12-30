@@ -12,34 +12,14 @@ html {
     scroll-behavior: smooth;
 }
 
+#theme-toggler {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
 #inicio {
     background-size: cover;
     background-position: center center;
     height: 100vh;
-}
-
-.socials {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    padding: 20px;
-}
-
-.socials a {
-    font-size: 40px;
-    color: black;
-    text-decoration: none;
-    transition: color 0.3s ease, transform 0.3s ease;
-}
-
-.socials a:hover {
-    color: #20534b;
-    transform: scale(1.2);
-}
-
-#theme-toggler {
-    transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
 #inicio .contenido header {
@@ -88,7 +68,7 @@ html {
 }
 
 #inicio .contenido .presentacion {
-    background: linear-gradient(110deg, rgb(0, 0, 0) 50%, #20534b 50%);
+    background: linear-gradient(110deg, black 50%, #20534b 50%);
     background-attachment: fixed;
     height: 100vh;
     margin: auto;
@@ -150,7 +130,7 @@ html {
     max-width: 1100px;
     margin: auto;
     padding: 100px 15px;
-    color: black;
+    color: #ffffff;
     display: flex;
 }
 
@@ -172,7 +152,7 @@ html {
 #sobremi .sobremi .titulo-seccion {
     font-size: 22px;
     text-transform: uppercase;
-    color: black;
+    color: #ffffff;
     text-decoration: underline;
     text-decoration-color: #20534b;
     text-decoration-thickness: 5px;
@@ -189,6 +169,26 @@ html {
     color: #20534b;
 }
 
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.socials a {
+    font-size: 40px;
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.socials a:hover {
+    color: rgb(255, 255, 255);
+    transform: scale(1.2);
+}
+
 #sobremi .sobremi h3 {
     font-size: 18px;
     font-weight: 500;
@@ -200,16 +200,16 @@ html {
 #sobremi .sobremi p {
     font-size: 14px;
     line-height: 25px;
-    color: #565656;
+    color: black;
     margin-bottom: 12px;
 }
 
 #sobremi .sobremi a {
     display: inline-block;
     text-decoration: none;
-    color: #000;
+    color: #20534b;
     border-radius: 30px;
-    border: 1px solid #000;
+    border: 1px solid #20534b;
     padding: 10px 20px;
     margin-top: 30px;
     transition: .5s;
@@ -223,16 +223,16 @@ html {
 #stack {
     padding: 100px 15px;
     text-align: center;
-    background-color: #f3f3f3;
+    background-color: #20534b;
 }
 
 #stack .titulo-seccion {
     text-align: center;
     font-size: 22px;
     text-transform: uppercase;
-    color: black;
+    color: #ffffff;
     text-decoration: underline;
-    text-decoration-color: #20534b;
+    text-decoration-color: #000000;
     text-decoration-thickness: 5px;
 }
 
@@ -258,26 +258,26 @@ html {
 
 #stack .fila .tecnologia {
     max-width: 350px;
-    background-color: #fff;
+    background-color: black;
     padding: 30px;
     margin: 5px 5px;
     border-radius: 5px;
     flex: 1 0 calc(33.33% - 20px);
     box-sizing: border-box;
-    transition: .5s;
+    transition: 0.5s;
 }
 
 #stack .fila .tecnologia:hover {
-    box-shadow: 5px 5px 10px #565656, -5px -5px 10px #8a8a8a;
+    box-shadow: 5px 5px 10px rgb(255, 255, 255), -5px -5px 10px #ffffff;
 }
 
 #stack .fila .tecnologia .icono {
     display: inline-block;
     width: 60px;
     height: 60px;
-    color: #20534b;
+    color: #ffffff;
     border-radius: 50%;
-    background-color: #d3d3d3;
+    background-color: #20534b;
     padding: 20px;
     margin-bottom: 25px;
 }
@@ -285,13 +285,7 @@ html {
 #stack .fila .tecnologia h4 {
     font-size: 22px;
     margin-bottom: 25px;
-}
-
-#stack .fila .tecnologia hr {
-    width: 30%;
-    margin: auto;
-    color: #000;
-    margin-bottom: 25px;
+    color: white;
 }
 
 #stack .fila .tecnologia ul {
@@ -319,6 +313,7 @@ html {
 #experiencia .titulo-seccion {
     text-align: center;
     font-size: 22px;
+    color: white;
     text-transform: uppercase;
     text-decoration: underline;
     text-decoration-color: #20534b;
@@ -345,19 +340,19 @@ html {
 }
 
 .experiencia-header:hover {
-    background-color: #5a6268;
+    background-color: #20534b;
 }
 
 .experiencia-content {
     display: none;
     padding: 20px;
-    background-color: #f8f9fa;
+    background-color: #20534b;
     border-left: 3px solid #6c757d;
     border-radius: 5px;
     margin-top: 15px;
     line-height: 1.8;
     font-size: 17px;
-    color: #333;
+    color: #ffffff;
 }
 
 .experiencia-content p {
@@ -393,7 +388,7 @@ html {
     text-decoration-color: #20534b;
     text-decoration-thickness: 5px;
     margin-bottom: 50px;
-    color: #000000;
+    color: #ffffff;
     font-weight: bold;
 }
 
@@ -409,12 +404,12 @@ html {
     border: none;
     border-radius: 12px;
     overflow: hidden;
-    background: #ffffff;
+    background: #20534b;
     margin: 6px;
     transition: transform 0.3s, box-shadow 0.3s;
     display: flex;
     flex-direction: column;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1);
 }
 
 #portfolio .fila .proyecto img {
@@ -431,12 +426,12 @@ html {
 }
 
 #portfolio .fila .proyecto .info {
-    color: #333;
+    color: #ffffff;
     padding: 20px;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.8;
-    background-color: #fff;
+    background-color: #20534b;
     border-radius: 0 0 12px 12px;
     overflow-y: auto;
 }
@@ -445,12 +440,12 @@ html {
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 15px;
-    color: #20534b;
+    color: #000000;
 }
 
 #portfolio .fila .proyecto p {
     font-size: 15px;
-    color: #555;
+    color: #ffffff;
     margin-bottom: 15px;
 }
 
@@ -481,16 +476,16 @@ html {
 
 #contacto {
     padding: 100px 15px;
-    background-color: #f3f3f3;
+    background-color: #20534b;
 }
 
 #contacto .titulo-seccion {
     text-align: center;
     font-size: 22px;
     text-transform: uppercase;
-    color: black;
+    color: #000000;
     text-decoration: underline;
-    text-decoration-color: #20534b;
+    text-decoration-color: #ffffff;
     text-decoration-thickness: 5px;
     margin-bottom: 20px;
 }
@@ -599,7 +594,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #e9ecef;
+    background-color: black;
 }
 
 h2,

@@ -10,7 +10,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/style.css">
+    <link id="theme-stylesheet" rel="stylesheet" href="css/style.css">
     <title>Francisco Balonero Olivera</title>
     <meta property="og:title" content="Francisco Balonero Olivera" />
     <meta property="og:description" content="Desarrollador FullStack" />
@@ -20,8 +20,6 @@
 </head>
 
 <body>
-
-
     <section id="inicio">
         <div class="contenido">
             <header>
@@ -35,32 +33,22 @@
                             <li><a href="#experiencia" onclick="seleccionar(this)">EXPERIENCIA</a></li>
                             <li><a href="#portfolio" onclick="seleccionar(this)">PROYECTOS</a></li>
                             <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
-                            <li><a href="https://www.linkedin.com/in/francisco-balonero-olivera" target="_blank"><i
-                                        class="fa-brands fa-linkedin"></i></a><a href="https://github.com/Francisco-B-O"
-                                    target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                            <li><a id="theme-toggler" onclick="toggleTheme()" class="fa-solid fa-moon"></a>
+                            </li>
+
                         </ul>
                     </nav>
-
                     <div id="icono-nav" onclick="responsiveMenu()">
                         <i class="fa-solid fa-bars"></i>
                     </div>
-
                 </div>
             </header>
-
-            <div class="presentacion">
-
-                <img src="img/avatar.jpg" alt="Avatar" class="avatar">
-
+            <div class="presentacion"> <img src="img/avatar.jpg" alt="Avatar" class="avatar">
                 <h2>Soy Francisco Balonero Olivera, Desarrollador FullStack</h2>
             </div>
         </div>
     </section>
-
     <section id="sobremi" class="reveal">
-
-
-
         <div class="sobremi">
             <p class="titulo-seccion">Sobre Mi</p>
             <h2>Hola, Soy <span>Francisco Balonero Olivera</span> </h2>
@@ -68,16 +56,14 @@
             aplicaciones multiplataforma y en el ámbito del desarrollo web. Mi carrera se ha centrado en crear
             soluciones tecnológicas que no solo sean eficientes, sino que también brinden una experiencia de usuario
             excepcional. Mi enfoque abarca tanto el front-end como el back-end, lo que me permite tener una visión
-            integral de los proyectos y facilitar la colaboración en equipo.<br><br>
-
-            📚 La <strong>pasión por el aprendizaje continuo</strong> es el motor que impulsa mi carrera. Siempre busco
+            integral de los proyectos y facilitar la colaboración en equipo.<br><br> 📚 La <strong>pasión por el
+                aprendizaje continuo</strong> es el motor que impulsa mi carrera. Siempre busco
             oportunidades para expandir mis conocimientos, ya sea explorando nuevas tecnologías, participando en cursos
             o asistiendo a conferencias. Esto me permite no solo dominar las herramientas actuales, sino también
             adaptarme rápidamente a las tendencias emergentes del sector. Me siento especialmente atraído por el
             desarrollo de aplicaciones modernas que utilizan <strong>frameworks populares</strong> y tecnologías
-            innovadoras.<br><br>
-
-            🚀 Me considero una persona <strong>entusiasta y comprometida</strong>, siempre en busca de nuevos retos que
+            innovadoras.<br><br> 🚀 Me considero una persona <strong>entusiasta y comprometida</strong>, siempre en
+            busca de nuevos retos que
             me permitan crecer profesionalmente. Me emociona la posibilidad de colaborar con equipos multidisciplinarios
             donde se fomente la creatividad y la innovación. Creo firmemente en la importancia de un entorno
             colaborativo y en la comunicación abierta, que son esenciales para el éxito de cualquier proyecto.<br><br>
@@ -87,140 +73,119 @@
     <section id="stack" class="reveal">
         <h3 class="titulo-seccion">Tecnologías</h3>
         <div class="fila">
-
             <div class="tecnologia">
                 <span class="icono">
                     <i class="devicon-javascript-plain"></i>
                 </span>
                 <h4>JavaScript</h4>
             </div>
-
             <div class="tecnologia">
                 <span class="icono">
                     <i class="devicon-dart-plain"></i>
                 </span>
                 <h4>Dart</h4>
             </div>
-
             <div class="tecnologia">
                 <span class="icono">
                     <i class="devicon-flutter-plain"></i>
                 </span>
                 <h4>Flutter</h4>
             </div>
-
             <div class="tecnologia">
                 <span class="icono">
                     <i class="devicon-mysql-plain"></i>
                 </span>
                 <h4>MySQL</h4>
             </div>
-
             <div class="tecnologia">
                 <span class="icono">
                     <i class="devicon-kotlin-plain"></i>
                 </span>
                 <h4>Kotlin</h4>
             </div>
-
             <div class="tecnologia">
                 <span class="icono">
                     <i class="devicon-html5-plain"></i>
                 </span>
                 <h4>HTML5</h4>
             </div>
-
             <div class="tecnologia">
                 <span class="icono">
                     <i class="devicon-java-plain"></i>
                 </span>
                 <h4>Java</h4>
             </div>
-
             <div class="tecnologia">
                 <span class="icono">
                     <i class="devicon-spring-plain"></i>
                 </span>
                 <h4>Spring</h4>
             </div>
-
             <div class="tecnologia">
                 <span class="icono">
                     <i class="devicon-docker-plain"></i>
                 </span>
                 <h4>Docker</h4>
             </div>
-
             <div class="tecnologia">
                 <span class="icono">
                     <i class="devicon-postman-plain"></i>
                 </span>
                 <h4>Postman</h4>
             </div>
-
             <div class="tecnologia">
                 <span class="icono">
                     <i class="devicon-swagger-plain"></i>
                 </span>
                 <h4>Swagger</h4>
             </div>
-
             <div class="tecnologia">
                 <span class="icono">
                     <i class="devicon-css3-plain"></i>
                 </span>
                 <h4>CSS3</h4>
             </div>
-
             <div class="tecnologia">
                 <span class="icono">
                     <i class="devicon-python-plain"></i>
                 </span>
                 <h4>Python</h4>
             </div>
-
             <div class="tecnologia">
                 <span class="icono">
                     <i class="devicon-typescript-plain"></i>
                 </span>
                 <h4>TypeScript</h4>
             </div>
-
             <div class="tecnologia">
                 <span class="icono">
                     <i class="devicon-express-original"></i>
                 </span>
                 <h4>Express.js</h4>
             </div>
-
             <div class="tecnologia">
                 <span class="icono">
                     <i class="devicon-nodejs-plain"></i>
                 </span>
                 <h4>Node.js</h4>
             </div>
-
             <div class="tecnologia">
                 <span class="icono">
                     <i class="devicon-django-plain"></i>
                 </span>
                 <h4>Django</h4>
             </div>
-
             <div class="tecnologia">
                 <span class="icono">
                     <i class="devicon-angularjs-plain"></i>
                 </span>
                 <h4>Angular</h4>
             </div>
-
         </div>
     </section>
-
     <section id="experiencia" class="reveal">
         <div class="container">
-            <h2 class="titulo-seccion">Mi experiencia</h2>
-
+            <h2 class="titulo-seccion">Experiencia</h2>
             <div class="experiencia-item">
                 <button class="experiencia-header">Viewnext</button>
                 <div class="experiencia-content">
@@ -231,7 +196,6 @@
                         conocimientos adquiridos en un entorno real, participando en proyectos de desarrollo de software
                         que me permitieron entender las necesidades del mercado y cómo abordarlas técnicamente.
                     </p>
-
                     <p>
                         Durante mi formación en Viewnext, me especialicé en el uso de <strong>Java</strong> y
                         <strong>Spring Boot</strong> para el desarrollo de microservicios, lo que me permitió comprender
@@ -240,27 +204,23 @@
                         <strong>Hibernate</strong>, lo que fortaleció mis habilidades en persistencia de datos y
                         optimización de consultas.
                     </p>
-
                     <p>
                         Además, en este período tuve la oportunidad de trabajar con <strong>Spring Batch</strong>, que
                         me permitió desarrollar procesos de batch para tareas programadas, como el procesamiento de
                         grandes volúmenes de datos, lo cual es esencial para mejorar la eficiencia de los sistemas.
                     </p>
-
                     <p>
                         La metodología <strong>SCRUM</strong> fue clave en mi formación, ya que participé activamente en
                         equipos ágiles, realizando reuniones diarias (Daily Standups), planificación de sprints,
                         revisiones y retrospectivas. Esta metodología me permitió aprender a gestionar el tiempo de
                         manera eficiente, priorizar tareas y adaptarme a los cambios de forma ágil.
                     </p>
-
                     <p>
                         También tuve la oportunidad de trabajar con herramientas de control de versiones como
                         <strong>Git</strong> y <strong>GitHub</strong>, lo que me permitió gestionar el código de manera
                         eficiente, colaborar con otros desarrolladores y mantener un historial claro de los cambios
                         realizados.
                     </p>
-
                     <p>
                         Tras finalizar mi formación dual, continué mi carrera profesional en <strong>Viewnext</strong>,
                         donde actualmente me dedico al desarrollo <strong>backend</strong>. Mi trabajo actual está
@@ -269,7 +229,6 @@
                         real utilizando <strong>Kafka</strong>, lo que me ha permitido profundizar en el procesamiento
                         de eventos y la comunicación asíncrona en arquitecturas distribuidas.
                     </p>
-
                     <p>
                         En mi día a día, utilizo herramientas como <strong>Spring Batch</strong> para manejar procesos
                         en segundo plano, optimizando el rendimiento en tareas programadas y el procesamiento de grandes
@@ -277,14 +236,12 @@
                         <strong>GitHub</strong> para el control de versiones, lo que facilita la colaboración con otros
                         desarrolladores y la gestión eficiente del código fuente.
                     </p>
-
                     <p>
                         La metodología <strong>SCRUM</strong> sigue siendo una parte fundamental de mi trabajo actual,
                         ya que participo activamente en reuniones de equipo, planificación de sprints y revisiones de
                         progreso. Esta experiencia me ha permitido trabajar de manera eficaz en equipos
                         multidisciplinarios, enfrentando desafíos técnicos de manera ágil y flexible.
                     </p>
-
                     <p>
                         En resumen, mi paso por la <strong>formación dual</strong> en Viewnext fue clave para adquirir
                         una base sólida en el desarrollo de software, especialmente en tecnologías como
@@ -294,13 +251,11 @@
                         software backend.
                     </p>
                 </div>
-
             </div>
         </div>
     </section>
-
     <section id="portfolio" class="reveal">
-        <h3 class="titulo-seccion">Mis Proyectos</h3>
+        <h3 class="titulo-seccion">Proyectos</h3>
         <div class="fila">
             <a href="https://francisco-b-o.github.io/fbo_demo_app/" target="_blank" class="proyecto">
                 <div>
@@ -311,9 +266,7 @@
                         <p>Una demostración de una aplicacion multiplataforma desarrollada con Flutter</p>
                     </div>
                 </div>
-            </a>
-
-            <a href="https://teleasistencia.iesvjp.es/inicio" target="_blank" class="proyecto">
+            </a> <a href="https://teleasistencia.iesvjp.es/inicio" target="_blank" class="proyecto">
                 <div>
                     <div class="overlay"></div>
                     <img src="img/tic_tapsd.png" alt="tictapsd">
@@ -330,30 +283,19 @@
             </a>
         </div>
     </section>
-
     <section id="contacto" class="reveal">
-        <h3 class="titulo-seccion">Contáctame ahora</h3>
-        <div class="contenedor-form">
-            <form onsubmit="enviarMail(); return false;"> <!-- Usa una función JavaScript -->
-                <div class="fila mitad">
-                    <input type="text" id="name" placeholder="Nombre Completo *" class="input-mitad" required>
-                    <input type="email" id="email" placeholder="Dirección de Email" class="input-mitad" required>
-                </div>
-
-                <div class="fila">
-                    <input type="text" id="subject" placeholder="Asunto" class="input-full" required>
-                </div>
-
-                <div class="fila">
-                    <textarea id="coments" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"
-                        required></textarea>
-                </div>
-                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
-            </form>
+        <h3 class="titulo-seccion">Contacto</h3>
+        <div class="socials">
+            <a href="https://www.linkedin.com/in/francisco-balonero-olivera/" target="_blank"
+                class="fa-brands fa-linkedin">
+            </a>
+            <a href="https://github.com/Francisco-B-O" target="_blank" class="fa-brands fa-github">
+            </a>
+            <a href="mailto:franciscobalonerodev@gmail.com?subject=Contacto desde Portfolio Web" target="_blank"
+                class="fa-solid fa-envelope">
+            </a>
         </div>
     </section>
-
-
     <footer>
         <p>© 2024 Francisco Balonero Olivera. Todos los derechos reservados.</p>
     </footer>
