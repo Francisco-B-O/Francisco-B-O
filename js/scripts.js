@@ -1,4 +1,3 @@
-//Función que me aplica el estilo a la opciòn seleccionada y quita la previamente seleccionada
 function seleccionar(link) {
     var opciones = document.querySelectorAll('#links  a');
     opciones[0].className = "";
@@ -26,11 +25,9 @@ function enviarMail() {
     const subject = document.getElementById('subject').value;
     const coments = document.getElementById('coments').value;
 
-    // Crea el enlace mailto
     const mailtoLink = `mailto:franciscobalonerodev@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(
         `Nombre: ${name}%0AEmail: ${email}%0AMensaje:%0A${coments}`
     )}`;
 
-    // Abre el cliente de correo
     window.location.href = mailtoLink;
 }

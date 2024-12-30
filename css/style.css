@@ -59,18 +59,6 @@ html {
     color: #20534b;
 }
 
-#inicio .contenido header .contenido-header .redes a {
-    text-decoration: none;
-    color: #fff;
-    display: inline-block;
-    margin-left: 10px;
-    transition: .5s;
-}
-
-#inicio .contenido header .contenido-header .redes a:hover {
-    color: #20534b;
-}
-
 #inicio .contenido header .contenido-header .seleccionado {
     color: #20534b;
 }
@@ -553,9 +541,6 @@ footer a {
 }
 
 @media screen and (max-width: 800px) {
-    .redes {
-        display: none;
-    }
 
     nav {
         display: none;
