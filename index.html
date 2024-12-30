@@ -335,28 +335,27 @@
     </section>
 
     <section id="contacto" class="reveal">
-        <h3 class="titulo-seccion">Contactame ahora</h3>
+        <h3 class="titulo-seccion">Contáctame ahora</h3>
         <div class="contenedor-form">
-            <form action="https://formsubmit.co/franciscobalonerodev@gmail.com" method="POST">
-
-
+            <form onsubmit="enviarMail(); return false;"> <!-- Usa una función JavaScript -->
                 <div class="fila mitad">
-                    <input type="text" name="name" id="name" placeholder="Nombre Completo *" class="input-mitad">
-                    <input type="email" name="email" id="email" placeholder="Dirección de Email" class="input-mitad">
+                    <input type="text" id="name" placeholder="Nombre Completo *" class="input-mitad" required>
+                    <input type="email" id="email" placeholder="Dirección de Email" class="input-mitad" required>
                 </div>
 
                 <div class="fila">
-                    <input type="text" name="subject" id="subject" placeholder="Asunto" class="input-full">
+                    <input type="text" id="subject" placeholder="Asunto" class="input-full" required>
                 </div>
 
                 <div class="fila">
-                    <textarea name="coments" id="coments" cols="30" rows="10" placeholder="Tu Mensaje..."
-                        class="input-full"></textarea>
+                    <textarea id="coments" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"
+                        required></textarea>
                 </div>
                 <input type="submit" value="Enviar Mensaje" class="btn-enviar">
             </form>
         </div>
     </section>
+
 
     <footer>
         <p>© 2024 Francisco Balonero Olivera. Todos los derechos reservados.</p>
@@ -379,7 +378,6 @@
             });
         });
     </script>
-    <script src="js/scripts.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
     <script>
         ScrollReveal().reveal('.reveal', {
@@ -389,6 +387,7 @@
             reset: false
         });
     </script>
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>

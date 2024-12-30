@@ -20,3 +20,17 @@ function responsiveMenu() {
         x.className = "";
     }
 }
+function enviarMail() {
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const subject = document.getElementById('subject').value;
+    const coments = document.getElementById('coments').value;
+
+    // Crea el enlace mailto
+    const mailtoLink = `mailto:franciscobalonerodev@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(
+        `Nombre: ${name}%0AEmail: ${email}%0AMensaje:%0A${coments}`
+    )}`;
+
+    // Abre el cliente de correo
+    window.location.href = mailtoLink;
+}

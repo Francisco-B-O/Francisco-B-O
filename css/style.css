@@ -316,11 +316,11 @@ html {
     margin-bottom: 40px;
 }
 
-.accordion-item {
+.experiencia-item {
     margin-bottom: 25px;
 }
 
-.accordion-header {
+.experiencia-header {
     background-color: #6c757d;
     color: #fff;
     padding: 18px;
@@ -334,11 +334,11 @@ html {
     margin-bottom: 10px;
 }
 
-.accordion-header:hover {
+.experiencia-header:hover {
     background-color: #5a6268;
 }
 
-.accordion-content {
+.experiencia-content {
     display: none;
     padding: 20px;
     background-color: #f8f9fa;
@@ -350,21 +350,21 @@ html {
     color: #333;
 }
 
-.accordion-content p {
+.experiencia-content p {
     margin-bottom: 15px;
 }
 
-.accordion-content ul {
+.experiencia-content ul {
     list-style-type: disc;
     margin-left: 25px;
     margin-bottom: 15px;
 }
 
-.accordion-content ul li {
+.experiencia-content ul li {
     margin-bottom: 10px;
 }
 
-.accordion-content ul li strong {
+.experiencia-content ul li strong {
     color: #333;
 }
 
