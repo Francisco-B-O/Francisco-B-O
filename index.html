@@ -223,19 +223,41 @@
                     </p>
                     <p>
                         Tras finalizar mi formación dual, continué mi carrera profesional en <strong>Viewnext</strong>,
-                        donde actualmente me dedico al desarrollo <strong>backend</strong>. Mi trabajo actual está
+                        donde actualmente me dedico al desarrollo <strong>FullStack</strong>. Mi trabajo actual está
                         centrado en la creación de aplicaciones robustas utilizando <strong>Spring Boot</strong> para
                         construir microservicios escalables y APIs RESTful. Además, gestiono flujos de datos en tiempo
                         real utilizando <strong>Kafka</strong>, lo que me ha permitido profundizar en el procesamiento
-                        de eventos y la comunicación asíncrona en arquitecturas distribuidas.
+                        de eventos y la comunicación asíncrona en arquitecturas distribuidas. También trabajo con
+                        <strong>Angular</strong>, tanto en el desarrollo
+                        de aplicaciones frontend como en la implementación de pruebas para garantizar la calidad del
+                        software.
+                        Mi experiencia en Angular me ha permitido construir interfaces dinámicas y optimizadas,
+                        integrándolas
+                        eficientemente con los microservicios backend.
                     </p>
                     <p>
-                        En mi día a día, utilizo herramientas como <strong>Spring Batch</strong> para manejar procesos
-                        en segundo plano, optimizando el rendimiento en tareas programadas y el procesamiento de grandes
-                        volúmenes de datos. Mi trabajo también incluye el uso de <strong>Git</strong> y
-                        <strong>GitHub</strong> para el control de versiones, lo que facilita la colaboración con otros
-                        desarrolladores y la gestión eficiente del código fuente.
+                        En mi día a día, desarrollo y optimizo aplicaciones backend utilizando <strong>Spring
+                            Boot</strong> y <strong>Spring Batch</strong>,
+                        enfocándome en la implementación de microservicios escalables y en la gestión eficiente de
+                        procesos en segundo plano.
+                        Trabajo en la optimización del rendimiento de tareas programadas y en el procesamiento de
+                        grandes volúmenes de datos, asegurando
+                        que los sistemas sean robustos y eficientes. Además, participo en la integración de
+                        <strong>Kafka</strong> para la gestión de
+                        eventos en tiempo real, mejorando la comunicación asíncrona entre servicios distribuidos.
                     </p>
+                    <p>
+                        También desarrollo y pruebo interfaces frontend con <strong>Angular</strong>, asegurando una
+                        experiencia de usuario fluida y
+                        optimizada, y garantizando la correcta integración con los servicios backend. Para la gestión
+                        del código, utilizo <strong>Git</strong> y
+                        <strong>GitHub</strong>, lo que me permite colaborar con otros desarrolladores, realizar
+                        revisiones de código y mantener un historial
+                        claro de los cambios realizados. Además, aplico metodologías <strong>SCRUM</strong> en cada
+                        proyecto, participando en reuniones diarias,
+                        planificación de sprints y revisiones para mejorar continuamente los procesos de desarrollo.
+                    </p>
+
                     <p>
                         La metodología <strong>SCRUM</strong> sigue siendo una parte fundamental de mi trabajo actual,
                         ya que participo activamente en reuniones de equipo, planificación de sprints y revisiones de
@@ -243,12 +265,8 @@
                         multidisciplinarios, enfrentando desafíos técnicos de manera ágil y flexible.
                     </p>
                     <p>
-                        En resumen, mi paso por la <strong>formación dual</strong> en Viewnext fue clave para adquirir
-                        una base sólida en el desarrollo de software, especialmente en tecnologías como
-                        <strong>Java</strong>, <strong>Spring Boot</strong>, <strong>Kafka</strong> y <strong>Spring
-                            Batch</strong>. Actualmente, como parte del equipo de Viewnext, continúo desarrollando mis
-                        habilidades en estas áreas, y sigo creciendo como profesional en el ámbito del desarrollo de
-                        software backend.
+                        Actualmente, como parte del equipo de Viewnext,
+                        continúo desarrollando mis habilidades en estas áreas, y sigo creciendo como profesional.
                     </p>
                 </div>
             </div>
@@ -297,7 +315,7 @@
         </div>
     </section>
     <footer>
-        <p>© 2024 Francisco Balonero Olivera. Todos los derechos reservados.</p>
+        <p>© <span id="year"></span> Francisco Balonero Olivera. Todos los derechos reservados.</p>
     </footer>
     <script>
         document.addEventListener("DOMContentLoaded", function () {
@@ -319,6 +337,7 @@
     </script>
     <script src="https://unpkg.com/scrollreveal"></script>
     <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
         ScrollReveal().reveal('.reveal', {
             duration: 2000,
             origin: 'bottom',
