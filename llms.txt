@@ -1,0 +1,14 @@
+# Francisco Balonero Olivera
+
+> Full-Stack Developer specializing in Java, Spring Boot, Angular, microservices, AI and Big Data. Bilingual portfolio (English / Spanish).
+
+- Website: https://franciscobalonero.dev/
+- CV (PDF): https://franciscobalonero.dev/CV_Francisco_Balonero_Olivera.pdf
+- GitHub: https://github.com/Francisco-B-O
+- LinkedIn: https://www.linkedin.com/in/francisco-balonero-olivera/
+
+## Projects
+
+- [PulseIoT](https://francisco-b-o.github.io/PulseIoT/): event-driven IoT telemetry platform with real-time anomaly detection (Spring Boot, Kafka, PySpark, ML, Angular). Code: https://github.com/Francisco-B-O/PulseIoT
+- [KikoLens](https://francisco-b-o.github.io/kikolens/): private, local-first data analysis workbench with AutoML, statistics, forecasting and local LLMs. Code: https://github.com/Francisco-B-O/kikolens
+- [Genlab](https://francisco-b-o.github.io/genlab/): bilingual educational puzzle game about biotechnology. Code: https://github.com/Francisco-B-O/genlab
